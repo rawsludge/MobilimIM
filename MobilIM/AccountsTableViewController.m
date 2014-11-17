@@ -30,12 +30,7 @@
         abort();
     }
 }
-/*
--(NSManagedObjectContext *)managedObjectContext
-{
-    return [(AppDelegate*)[[UIApplication sharedApplication] delegate]managedObjectContext];
-}
-*/
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

@@ -7,7 +7,7 @@
 //
 
 #import "BaseTableViewController.h"
-#import "AppDelegate.h"
+#import "DataManager.h"
 
 @interface BaseTableViewController()
 
@@ -34,7 +34,8 @@
 
 -(NSManagedObjectContext*)managedObjectContext
 {
-    return [(AppDelegate *)[[UIApplication sharedApplication]delegate]managedObjectContext];
+    return [[DataManager SharedInstance]managedObjectContext];
+    //return [(AppDelegate *)[[UIApplication sharedApplication]delegate]managedObjectContext];
 }
 
 

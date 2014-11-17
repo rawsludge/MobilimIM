@@ -29,18 +29,5 @@
 #import "XMPPMUC.h"
 #import "XMPPRoomCoreDataStorage.h"
 
-//Log informations
-#import "DDLog.h"
-#import "DDTTYLogger.h"
-#import "XMPPLogging.h"
-
-
-// Log levels: off, error, warn, info, verbose
-#if DEBUG
-static const int ddLogLevel = LOG_LEVEL_VERBOSE;
-#else
-static const int ddLogLevel = LOG_LEVEL_INFO;
-#endif
-
 
 #endif

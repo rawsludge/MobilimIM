@@ -144,11 +144,9 @@
 		CD2F8AD41A140EAD00B4F849 /* DDXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2F8A461A140EAD00B4F849 /* DDXMLNode.m */; };
 		CD2F8AD51A140EAD00B4F849 /* build-libidn.sh in Resources */ = {isa = PBXBuildFile; fileRef = CD2F8A4A1A140EAD00B4F849 /* build-libidn.sh */; };
 		CD2F8AD61A140EAD00B4F849 /* libidn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD2F8A4C1A140EAD00B4F849 /* libidn.a */; };
-		CD2F8ADB1A14103400B4F849 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2F8ADA1A14103400B4F849 /* Main.storyboard */; };
 		CD2F8ADD1A14106300B4F849 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD2F8ADC1A14106300B4F849 /* Images.xcassets */; };
 		CD572A261A0E032000D0CAC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD572A251A0E032000D0CAC2 /* main.m */; };
 		CD572A291A0E032000D0CAC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD572A281A0E032000D0CAC2 /* AppDelegate.m */; };
-		CD572A371A0E032100D0CAC2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD572A351A0E032100D0CAC2 /* LaunchScreen.xib */; };
 		CD572C421A0E054B00D0CAC2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD572C411A0E054B00D0CAC2 /* CoreLocation.framework */; };
 		CD572C451A0E057D00D0CAC2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD572C441A0E057D00D0CAC2 /* UIKit.framework */; };
 		CD572E391A0E073000D0CAC2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD572E381A0E073000D0CAC2 /* CoreGraphics.framework */; };
@@ -162,9 +160,13 @@
 		CD5F4DDF1A0EECCA00563260 /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5F4DDE1A0EECCA00563260 /* BaseTableViewController.m */; };
 		CD7CF7221A18F688009B7F40 /* XmppConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7CF7211A18F688009B7F40 /* XmppConnectionManager.m */; };
 		CDB6D6071A0F431300D16EEA /* AccountsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB6D6061A0F431300D16EEA /* AccountsTableViewController.m */; };
-		CDB6D60D1A0F439200D16EEA /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CDB6D60B1A0F439200D16EEA /* Model.xcdatamodeld */; };
+		CDB6D60D1A0F439200D16EEA /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CDB6D60B1A0F439200D16EEA /* CoreData.xcdatamodeld */; };
 		CDB6D6141A0F4C5500D16EEA /* AddAccountTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB6D6131A0F4C5500D16EEA /* AddAccountTableViewController.m */; };
 		CDB6D61A1A1032C700D16EEA /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB6D6191A1032C700D16EEA /* Account.m */; };
+		CDDB3E0B1A196CBF00DE704A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDDB3E0D1A196CBF00DE704A /* Main.storyboard */; };
+		CDDB3E0E1A196CD000DE704A /* InitializeAccount.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDDB3E101A196CD000DE704A /* InitializeAccount.storyboard */; };
+		CDDB3E151A1974B600DE704A /* InitializeAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDB3E141A1974B600DE704A /* InitializeAccountViewController.m */; };
+		CDF223B11A195E100063DE8E /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF223B01A195E100063DE8E /* DataManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -453,14 +455,12 @@
 		CD2F8A4C1A140EAD00B4F849 /* libidn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libidn.a; sourceTree = "<group>"; };
 		CD2F8A4D1A140EAD00B4F849 /* stringprep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stringprep.h; sourceTree = "<group>"; };
 		CD2F8AD71A140EC400B4F849 /* XMPPFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPFramework.h; sourceTree = "<group>"; };
-		CD2F8ADA1A14103400B4F849 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		CD2F8ADC1A14106300B4F849 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CD572A201A0E032000D0CAC2 /* MobilIM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobilIM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD572A241A0E032000D0CAC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD572A251A0E032000D0CAC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CD572A271A0E032000D0CAC2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CD572A281A0E032000D0CAC2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CD572A361A0E032100D0CAC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		CD572C411A0E054B00D0CAC2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		CD572C441A0E057D00D0CAC2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CD572E381A0E073000D0CAC2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -471,19 +471,26 @@
 		CD572E441A0E07F200D0CAC2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		CD572E461A0E082300D0CAC2 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		CD572E481A0E082A00D0CAC2 /* libresolv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libresolv.dylib; path = usr/lib/libresolv.dylib; sourceTree = SDKROOT; };
-		CD572E4B1A0E191C00D0CAC2 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
-		CD572E4D1A0E19E100D0CAC2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		CD5F4DDD1A0EECCA00563260 /* BaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
 		CD5F4DDE1A0EECCA00563260 /* BaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
 		CD7CF7201A18F688009B7F40 /* XmppConnectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XmppConnectionManager.h; sourceTree = "<group>"; };
 		CD7CF7211A18F688009B7F40 /* XmppConnectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XmppConnectionManager.m; sourceTree = "<group>"; };
 		CDB6D6051A0F431300D16EEA /* AccountsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountsTableViewController.h; sourceTree = "<group>"; };
 		CDB6D6061A0F431300D16EEA /* AccountsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountsTableViewController.m; sourceTree = "<group>"; };
-		CDB6D60C1A0F439200D16EEA /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		CDB6D60C1A0F439200D16EEA /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
 		CDB6D6121A0F4C5500D16EEA /* AddAccountTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddAccountTableViewController.h; sourceTree = "<group>"; };
 		CDB6D6131A0F4C5500D16EEA /* AddAccountTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddAccountTableViewController.m; sourceTree = "<group>"; };
 		CDB6D6181A1032C700D16EEA /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
 		CDB6D6191A1032C700D16EEA /* Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Account.m; sourceTree = "<group>"; };
+		CDDB3E0C1A196CBF00DE704A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDDB3E0F1A196CD000DE704A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/InitializeAccount.storyboard; sourceTree = "<group>"; };
+		CDDB3E111A196CE000DE704A /* tr */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = tr; path = tr.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDDB3E121A196CE000DE704A /* tr */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = tr; path = tr.lproj/InitializeAccount.storyboard; sourceTree = "<group>"; };
+		CDDB3E131A1974B600DE704A /* InitializeAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitializeAccountViewController.h; sourceTree = "<group>"; };
+		CDDB3E141A1974B600DE704A /* InitializeAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitializeAccountViewController.m; sourceTree = "<group>"; };
+		CDF223AF1A195E100063DE8E /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataManager.h; path = MobilIM/DataManager.h; sourceTree = "<group>"; };
+		CDF223B01A195E100063DE8E /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataManager.m; path = MobilIM/DataManager.m; sourceTree = "<group>"; };
+		CDF223B21A195EE90063DE8E /* Definitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Definitions.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1372,7 +1379,7 @@
 			isa = PBXGroup;
 			children = (
 				CD2F88E61A140E9200B4F849 /* XMPP */,
-				CDB6D6111A0F475800D16EEA /* Models */,
+				CDB6D6111A0F475800D16EEA /* CoreData */,
 				CD572C431A0E055900D0CAC2 /* Frameworks */,
 				CD572A221A0E032000D0CAC2 /* MobilIM */,
 				CD572A211A0E032000D0CAC2 /* Products */,
@@ -1392,7 +1399,6 @@
 			children = (
 				CD572A271A0E032000D0CAC2 /* AppDelegate.h */,
 				CD572A281A0E032000D0CAC2 /* AppDelegate.m */,
-				CD572A351A0E032100D0CAC2 /* LaunchScreen.xib */,
 				CD572A231A0E032000D0CAC2 /* Supporting Files */,
 				CD5F4DDD1A0EECCA00563260 /* BaseTableViewController.h */,
 				CD5F4DDE1A0EECCA00563260 /* BaseTableViewController.m */,
@@ -1400,10 +1406,14 @@
 				CDB6D6061A0F431300D16EEA /* AccountsTableViewController.m */,
 				CDB6D6121A0F4C5500D16EEA /* AddAccountTableViewController.h */,
 				CDB6D6131A0F4C5500D16EEA /* AddAccountTableViewController.m */,
-				CD2F8ADA1A14103400B4F849 /* Main.storyboard */,
+				CDDB3E0D1A196CBF00DE704A /* Main.storyboard */,
 				CD2F8ADC1A14106300B4F849 /* Images.xcassets */,
 				CD7CF7201A18F688009B7F40 /* XmppConnectionManager.h */,
 				CD7CF7211A18F688009B7F40 /* XmppConnectionManager.m */,
+				CDF223B21A195EE90063DE8E /* Definitions.h */,
+				CDDB3E101A196CD000DE704A /* InitializeAccount.storyboard */,
+				CDDB3E131A1974B600DE704A /* InitializeAccountViewController.h */,
+				CDDB3E141A1974B600DE704A /* InitializeAccountViewController.m */,
 			);
 			path = MobilIM;
 			sourceTree = "<group>";
@@ -1434,14 +1444,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CDB6D6111A0F475800D16EEA /* Models */ = {
+		CDB6D6111A0F475800D16EEA /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
+				CDF223AF1A195E100063DE8E /* DataManager.h */,
+				CDF223B01A195E100063DE8E /* DataManager.m */,
 				CDB6D6181A1032C700D16EEA /* Account.h */,
 				CDB6D6191A1032C700D16EEA /* Account.m */,
-				CDB6D60B1A0F439200D16EEA /* Model.xcdatamodeld */,
+				CDB6D60B1A0F439200D16EEA /* CoreData.xcdatamodeld */,
 			);
-			name = Models;
+			name = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1484,7 +1496,8 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
+				en,
+				tr,
 			);
 			mainGroup = CD572A171A0E032000D0CAC2;
 			productRefGroup = CD572A211A0E032000D0CAC2 /* Products */;
@@ -1501,11 +1514,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDDB3E0E1A196CD000DE704A /* InitializeAccount.storyboard in Resources */,
 				CD2F8AD51A140EAD00B4F849 /* build-libidn.sh in Resources */,
 				CD2F8ADD1A14106300B4F849 /* Images.xcassets in Resources */,
-				CD572A371A0E032100D0CAC2 /* LaunchScreen.xib in Resources */,
 				CD2F8AD01A140EAD00B4F849 /* README.txt in Resources */,
-				CD2F8ADB1A14103400B4F849 /* Main.storyboard in Resources */,
+				CDDB3E0B1A196CBF00DE704A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1546,6 +1559,7 @@
 				CD2F8ABD1A140EAD00B4F849 /* XMPPMessage+XEP_0308.m in Sources */,
 				CD572A291A0E032000D0CAC2 /* AppDelegate.m in Sources */,
 				CD2F8A5A1A140EAD00B4F849 /* XMPPIQ.m in Sources */,
+				CDDB3E151A1974B600DE704A /* InitializeAccountViewController.m in Sources */,
 				CD2F8A621A140EAD00B4F849 /* XMPPCoreDataStorage.m in Sources */,
 				CD2F8ACD1A140EAD00B4F849 /* DDContextFilterLogFormatter.m in Sources */,
 				CD2F8AB31A140EAD00B4F849 /* XMPPPing.m in Sources */,
@@ -1613,6 +1627,7 @@
 				CD2F8A751A140EAD00B4F849 /* XMPPPrivacy.m in Sources */,
 				CD2F8A781A140EAD00B4F849 /* XMPPRoomMessageCoreDataStorageObject.m in Sources */,
 				CD2F8ABF1A140EAD00B4F849 /* NSXMLElement+XEP_0335.m in Sources */,
+				CDF223B11A195E100063DE8E /* DataManager.m in Sources */,
 				CD2F8A6F1A140EAD00B4F849 /* XMPPSystemInputActivityMonitor.m in Sources */,
 				CD2F8A741A140EAD00B4F849 /* XMPPLastActivity.m in Sources */,
 				CD2F8AA71A140EAD00B4F849 /* XMPPMessageArchivingCoreDataStorage.m in Sources */,
@@ -1637,7 +1652,7 @@
 				CD2F8A631A140EAD00B4F849 /* XMPPGoogleSharedStatus.m in Sources */,
 				CD2F8A671A140EAD00B4F849 /* XMPPResourceCoreDataStorageObject.m in Sources */,
 				CD2F8AC61A140EAD00B4F849 /* XMPPTimer.m in Sources */,
-				CDB6D60D1A0F439200D16EEA /* Model.xcdatamodeld in Sources */,
+				CDB6D60D1A0F439200D16EEA /* CoreData.xcdatamodeld in Sources */,
 				CD2F8AAF1A140EAD00B4F849 /* XMPPStreamManagementMemoryStorage.m in Sources */,
 				CD2F8AC11A140EAD00B4F849 /* GCDMulticastDelegate.m in Sources */,
 				CD2F8AA81A140EAD00B4F849 /* XMPPMessageArchiving.m in Sources */,
@@ -1664,14 +1679,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CD572A351A0E032100D0CAC2 /* LaunchScreen.xib */ = {
+		CDDB3E0D1A196CBF00DE704A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CD572A361A0E032100D0CAC2 /* Base */,
-				CD572E4B1A0E191C00D0CAC2 /* tr */,
-				CD572E4D1A0E19E100D0CAC2 /* en */,
+				CDDB3E0C1A196CBF00DE704A /* en */,
+				CDDB3E111A196CE000DE704A /* tr */,
 			);
-			name = LaunchScreen.xib;
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDDB3E101A196CD000DE704A /* InitializeAccount.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDDB3E0F1A196CD000DE704A /* en */,
+				CDDB3E121A196CE000DE704A /* tr */,
+			);
+			name = InitializeAccount.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -1867,14 +1890,14 @@
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
-		CDB6D60B1A0F439200D16EEA /* Model.xcdatamodeld */ = {
+		CDB6D60B1A0F439200D16EEA /* CoreData.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				CDB6D60C1A0F439200D16EEA /* Model.xcdatamodel */,
+				CDB6D60C1A0F439200D16EEA /* CoreData.xcdatamodel */,
 			);
-			currentVersion = CDB6D60C1A0F439200D16EEA /* Model.xcdatamodel */;
-			name = Model.xcdatamodeld;
-			path = MobilIM/Model.xcdatamodeld;
+			currentVersion = CDB6D60C1A0F439200D16EEA /* CoreData.xcdatamodel */;
+			name = CoreData.xcdatamodeld;
+			path = MobilIM/CoreData.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

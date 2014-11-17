@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "XMPPFramework.h"
+#import "Definitions.h"
 #import "Account.h"
 
 
